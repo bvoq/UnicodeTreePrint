@@ -2,16 +2,17 @@
 
 int main(int argc, const char * argv[]) {
     
-    std::wcout.imbue(std::locale("en_US.UTF-8")); // A concrete UTF-8 standard has to be set in order for wcout to work (also included in )!
+    std::wcout.imbue(std::locale("en_US.UTF-8")); // A concrete UTF-8 standard has to be set in order for wcout to work!
 
     //Example usage:
     
-    AST g = {"4", {}};
-    AST f = {"2", {}};
+    AST h = {"4", {}};
+    AST g = {"2", {}};
+    AST f = {"x", {}};
     AST e = {"Преступление", {}};
     AST d = {"ääöüöäüöäüöäüöäüöäüöäüöäöü", {}};
-    AST c = {"ÉGÉìÉRÅ[ÉfÉBÉìÉOÇÕìÔÇµÇ≠Ç»Ç¢",{&f,&g}};
-    AST b = {"Zebra1", {&d,&e}};
+    AST c = {"ÉGÉìÉRÅ[ÉfÉBÉìÉOÇÕìÔÇµÇ≠Ç»Ç¢",{&g,&h}};
+    AST b = {"Zebra1", {&d,&e,&f}};
     AST a = {"&", {&b,&c}};
 
     //either directly print it:
