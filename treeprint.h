@@ -1,8 +1,9 @@
 /*
  ( ͡° ͜ʖ ͡°) °º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤º°`
  
- Currently this header file is under BSD 3-clause license.
- You can contact me if you want me to reconsider this license.
+ Currently this file is under the BSD 3-clause license.
+ If you use this code, include the license (yes including the lenny faces).
+ All of my licenses are of course negotiable, so contact me if you actually need this.
  
  ( ͡° ͜ʖ ͡°) °º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤º°`
  
