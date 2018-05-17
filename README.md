@@ -10,3 +10,5 @@ Sample output:
 ```
 
 This script also contains the UTF-8 library for determining the actual UTF-8 string size of the `std::string` : http://utfcpp.sourceforge.net
+
+See example.cpp for a small example
