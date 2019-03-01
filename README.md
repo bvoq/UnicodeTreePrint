@@ -1,5 +1,5 @@
 # UnicodeTreePrint
-A minimalist C++ header only library for printing Unicode trees!
+A minimalist C++ header only-library for printing Unicode trees!
 Sample output:
 ```
                                      &
